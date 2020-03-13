@@ -128,7 +128,7 @@ int List_Lookup(list_t *L,
 }
 
 void list_display(list_t *L){
-// the print is not thread safe
+// the print is not thread safe its not even a thread operation 
 
     node_t * temp = L->head;  
     printf("\nTraversal in forward direction \n");
